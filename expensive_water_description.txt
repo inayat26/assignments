@@ -1,0 +1,1 @@
+first ran the pre-written code to filter out all rows where someone had made a purchase for water more than $1000. Then used the curl command to pull out the 2017 quarter 1 expenditure. This was "redirected", i.e. saved into a file "expensive_water.csv"
