@@ -1,0 +1,6 @@
+
+Part 1: First wrote the code and saved it in filter.py. then used the curl command to download data from 2017 quarter 1 expenditure. This was saved in a separate file (expensive water.csv), and then using cvstat was redirected into (expensive water summary). 
+
+For the second part - changed the program to give the number of rows with water expenditure LESS than a 1000. Saved this in output.csv and summary.txt
+
+cat output.csv | csvstat > summary.txt
